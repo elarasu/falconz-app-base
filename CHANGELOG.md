@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.2 (2021-10-03)
+
+
+### Features
+
+* first version of base - with log interface ([0a46560](https://github.com/elarasu/falconz-app-base/commit/0a46560e9206cd43726ae6eb35d85966229d879d))
+
 ### [0.0.21](https://github.com///compare/v0.0.20...v0.0.21) (2021-09-23)
 
 
