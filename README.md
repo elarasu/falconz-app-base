@@ -1,6 +1,6 @@
 # falconz-app-base
 
-base module for falconz platform
+base module for falconz platform.
 
 ## Development workflow
 
