@@ -1,7 +1,10 @@
-// import test from 'ava';
+import test from 'ava';
 
-// import RC from '../rc';
+import Log from '../log';
 
-// test('double', (t) => {
-//   t.is(double(2), 4);
-// });
+const konsole = new Log();
+
+test('log - check with empty params', (t) => {
+  konsole.log();
+  t.pass();
+});

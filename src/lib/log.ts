@@ -15,6 +15,7 @@ export default class Log implements Logging {
   }
   private consoleLog(type: 'debug' | 'info' | 'error' | 'log', args: any[]) {
     if (!args || args.length === 0) return;
+    // const debug = this._logLevel || 2;
     const message = args.shift();
     if (args.length > 0) {
       console[type](message, ...args);

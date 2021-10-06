@@ -1,7 +1,8 @@
 import Log from '../build/module/lib/log.js';
+import consola from 'consola';
 
-const konsole = new Log();
-// const konsole = console;
+// const konsole = new Log();
+const konsole = consola;
 konsole.log('log statement', 'l');
 konsole.debug('debug statement', 'd', { a: 45 });
 konsole.info('info statement');

@@ -3,4 +3,4 @@ export default interface Logging {
   info(...params: any[]): void;
   error(...params: any[]): void;
   log(...params: any[]): void;
-};
+}
