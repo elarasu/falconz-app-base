@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/elarasu/falconz-app-base/compare/v0.0.3...v0.0.4) (2021-10-06)
+
+
+### Bug Fixes
+
+* 🐛 minor cleanups to log method ([0b44022](https://github.com/elarasu/falconz-app-base/commit/0b44022c06cae0e35e50fd6be413727f2de85d2f))
+
 ### [0.0.3](https://github.com/elarasu/falconz-app-base/compare/v0.0.2...v0.0.3) (2021-10-05)
 
 ### 0.0.2 (2021-10-03)
