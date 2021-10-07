@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/elarasu/falconz-app-base/compare/v0.0.5...v0.0.6) (2021-10-07)
+
+
+### Bug Fixes
+
+* 🐛 renamed logging => logger ([78b956f](https://github.com/elarasu/falconz-app-base/commit/78b956fa0307325742c2a31a6d4eb27b1b730c20))
+
 ### [0.0.5](https://github.com/elarasu/falconz-app-base/compare/v0.0.4...v0.0.5) (2021-10-07)
 
 
