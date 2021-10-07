@@ -5,8 +5,8 @@ import consola from 'consola';
 
 console.log(!isBrowser);
 console.log(isGlobalPresent('konsole'));
-// global.konsole = consola;
-global.konsole = new Log();
+global.konsole = consola;
+//global.konsole = new Log();
 console.log(isGlobalPresent('konsole'));
 // console.log(global);
 konsole.log('log statement', 'l');
