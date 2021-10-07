@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/elarasu/falconz-app-base/compare/v0.0.4...v0.0.5) (2021-10-07)
+
+
+### Features
+
+* 🎸 utils added with isBrowser, isGlobalPresent ([21968c6](https://github.com/elarasu/falconz-app-base/commit/21968c67d797e6c51d98c384ddf15a9aeaff8126))
+
 ### [0.0.4](https://github.com/elarasu/falconz-app-base/compare/v0.0.3...v0.0.4) (2021-10-06)
 
 
