@@ -15,6 +15,8 @@ git push --follow-tags origin main && npm publish
 ## Todo
 
 - interface for logging
+  - figure out how to run unit test
+  - Logger interface object
 - interface for cache
 
 ## Notes

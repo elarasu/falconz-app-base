@@ -1,6 +1,6 @@
-import Logging from './logging';
+import { Logger } from './logger';
 
-export default class Log implements Logging {
+export default class Log implements Logger {
   public debug(...args: any[]): void {
     this.consoleLog('debug', args);
   }
