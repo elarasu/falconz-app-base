@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/elarasu/falconz-app-base/compare/v0.0.7...v0.0.8) (2021-10-09)
+
+
+### Bug Fixes
+
+* unit test (jest) added ([87d048f](https://github.com/elarasu/falconz-app-base/commit/87d048fa9091a3fcbd2a0c6781328dc2661a4c7a))
+
 ### [0.0.7](https://github.com/elarasu/falconz-app-base/compare/v0.0.6...v0.0.7) (2021-10-07)
 
 
