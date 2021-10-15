@@ -6,11 +6,11 @@ test('log - check with empty params', () => {
   konsole.log();
 });
 test('debug - check with one params', () => {
-  konsole.debug("hello");
+  konsole.debug('hello');
 });
 test('info - check with two params', () => {
-  konsole.info({ t: 1 }, "hello");
+  konsole.info({ t: 1 }, 'hello');
 });
 test('error - check with three params', () => {
-  konsole.error("error msg", [1, 2, 3], "hello");
+  konsole.error('error msg', [1, 2, 3], 'hello');
 });

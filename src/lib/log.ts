@@ -1,3 +1,6 @@
+/* eslint-disable class-methods-use-this */
+/* eslint-disable functional/functional-parameters */
+/* eslint-disable functional/no-return-void */
 import { Logger } from './logger';
 
 export default class Log implements Logger {
@@ -23,4 +26,4 @@ export default class Log implements Logger {
       console[type](message);
     }
   }
-};
+}

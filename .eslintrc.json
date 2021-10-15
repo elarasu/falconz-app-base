@@ -16,8 +16,7 @@
     "plugin:import/typescript",
     "plugin:functional/lite",
     "airbnb-typescript-prettier",
-    "prettier",
-    "prettier/@typescript-eslint"
+    "prettier"
   ],
   "globals": {
     "BigInt": true,

@@ -1,13 +1,12 @@
-import Log from '../build/module/lib/log.js';
+import { Log, Util, Logger } from '../build/module/index.js';
 // import { Logger } from '../build/module/lib/logger.js';
-import { isBrowser, isGlobalPresent } from '../build/module/lib/utils.js';
 import consola from 'consola';
 
-console.log(!isBrowser);
-console.log(isGlobalPresent('konsole'));
+console.log(!Util.isBrowser);
+console.log(Util.isGlobalPresent('konsole'));
 global.konsole = consola;
 //global.konsole = new Log();
-console.log(isGlobalPresent('konsole'));
+console.log(Util.isGlobalPresent('konsole'));
 // console.log(global);
 konsole.log('log statement', 'l');
 konsole.debug('debug statement', 'd', { a: 45 });
