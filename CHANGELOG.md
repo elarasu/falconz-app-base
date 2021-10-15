@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://github.com/elarasu/falconz-app-base/compare/v0.0.9...v0.0.10) (2021-10-15)
+
+
+### Bug Fixes
+
+* jSONSchema to AjvSchema added to utilss ([0b6d44a](https://github.com/elarasu/falconz-app-base/commit/0b6d44adb9dd20c521978352920c4e07a8a3137a))
+
 ### [0.0.9](https://github.com/elarasu/falconz-app-base/compare/v0.0.8...v0.0.9) (2021-10-15)
 
 ### [0.0.8](https://github.com/elarasu/falconz-app-base/compare/v0.0.7...v0.0.8) (2021-10-09)
