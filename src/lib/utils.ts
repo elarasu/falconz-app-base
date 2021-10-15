@@ -12,3 +12,13 @@ export const isGlobalPresent = (name: string): boolean => {
     return false;
   }
 };
+
+/**
+ * Convert JSON schema to AjvSchema
+ * for faster validations
+ */
+export const jsonToAjvSchema = (jsonSchema: any): any => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const { version, primaryKey, ...ajvSchema } = jsonSchema;
+  return ajvSchema;
+};

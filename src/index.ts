@@ -1,3 +1,5 @@
-export * as Log from './lib/log';
-export * as Logger from './lib/logger';
-export * as Util from './lib/utils';
+import Log from './lib/log';
+import { Logger } from './lib/logger';
+import * as Utils from './lib/utils';
+
+export { Log, Logger, Utils };
