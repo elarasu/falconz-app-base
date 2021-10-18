@@ -14,6 +14,8 @@ test('isGlobalPresent', () => {
 });
 global.konsole = new Log();
 
+// -------------
+
 test('jsonToAjvSchema no keys', () => {
   const schema1 = {};
   expect(Utils.jsonToAjvSchema(schema1)).toStrictEqual(schema1);
@@ -34,4 +36,15 @@ test('jsonToAjvSchema check version and primaryKey removed', () => {
   const schema4 = { a: 5, b: 'hello', version: 1, primaryKey: 'a' };
   const schema4Out = { a: 5, b: 'hello' };
   expect(Utils.jsonToAjvSchema(schema4)).toStrictEqual(schema4Out);
+});
+
+// -------------
+test('hash empty string', () => {
+  const str1 = '';
+  expect(Utils.hash(str1)).toStrictEqual(5381);
+});
+test('hash sample string & repeated returns same value', () => {
+  const str2 = 'hello, there';
+  const hashVal = Utils.hash(str2);
+  expect(Utils.hash(str2)).toStrictEqual(hashVal);
 });
