@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.12](https://github.com/elarasu/falconz-app-base/compare/v0.0.11...v0.0.12) (2021-10-18)
+
+
+### Bug Fixes
+
+* expose Service api ([f52348b](https://github.com/elarasu/falconz-app-base/commit/f52348bfc1818f3b1a2f6d933e5ce186bb286b26))
+
 ### [0.0.11](https://github.com/elarasu/falconz-app-base/compare/v0.0.10...v0.0.11) (2021-10-18)
 
 
