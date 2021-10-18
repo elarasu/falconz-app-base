@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/elarasu/falconz-app-base/compare/v0.0.10...v0.0.11) (2021-10-18)
+
+
+### Features
+
+* service module created (wrapper over apisauce) ([4e40a58](https://github.com/elarasu/falconz-app-base/commit/4e40a585f0d42530a88156eccad3e216f14b411f))
+
 ### [0.0.10](https://github.com/elarasu/falconz-app-base/compare/v0.0.9...v0.0.10) (2021-10-15)
 
 
